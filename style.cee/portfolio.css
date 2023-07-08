@@ -2,13 +2,20 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.head{
+    background: #FFF8F3;;
+}
+
+.primary-color{
+    color: #fd6e0a;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 150px;
 }
-
-nav
 
 .nav-title{
       color: #181818;
@@ -28,10 +35,6 @@ nav
     padding: 15px 35px;
 }
 
-.primary-color{
-    color: #FD6E0A;
-}
-
 nav > ul{
     display: flex;
     align-items: center;
@@ -40,5 +43,49 @@ nav > ul{
 nav > ul > li{
     list-style: none;
     margin-right: 50px;
-    
+}
+
+nav > ul > li>a{
+    text-decoration: none;
+}
+
+a:hover{
+    /* background: #FD6E0A;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px; */
+
+    border-radius: 5px;
+    border: 0;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+}
+
+.contact-button{
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+
+    background: #FFF8F3;
+    line-height: normal;
+}
+
+.banner{
+    display: flex;
+}
+
+.profile-pic{
+    width: 400px;
 }
