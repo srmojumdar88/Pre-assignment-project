@@ -1,3 +1,7 @@
+*{
+    padding: 0px;
+    margin: 1px;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -6,34 +10,23 @@ body{
     background: #FFF8F3;;
 }
 
-.primary-color{
-    color: #fd6e0a;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 150px;
+    padding: 20px 150px;
 }
 
 .nav-title{
-      color: #181818;
+    color: #181818;
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
 }
 
-.primary-button{
-    border-radius: 5px;
-    border: 0;
-    background: #FD6E0A;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    color: #FFF;
-    padding: 15px 35px;
-}
+.m-color{
+    color: #FD6E0A;
+ }
 
 nav > ul{
     display: flex;
@@ -47,45 +40,75 @@ nav > ul > li{
 
 nav > ul > li>a{
     text-decoration: none;
+    margin-right: 15px;
+    padding: 15px;;
 }
 
 a:hover{
-    /* background: #FD6E0A;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px; */
-
     border-radius: 5px;
     border: 0;
-    background: #FD6E0A;
+    background: rgba(253, 110, 10,0.2) ;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    color: #FFF;
-    padding: 5px 15px;
     transition: 0.5s;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+}
+
+
+.banner-content{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 250px;
+}
+
+.banner-greating{
+    color: #474747;
+    font-size: 45px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.intro{
+    color: #757575;
+    font-size: 18px;
+    max-width: 585px;
+}
+
+.primary-button{
+    border-radius: 5px;
+    border: 0;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 15px 35px;
+    margin-top: 10px;
 }
 
 .contact-button{
     border-radius: 5px;
-    border: 1px solid #FD6E0A;
+    border: 1px solid #FD6E0A ;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
+    color: #FD6E0A;
+    background: transparent;
     padding: 15px 35px;
-
-    background: #FFF8F3;
-    line-height: normal;
-}
-
-.banner{
-    display: flex;
+    margin-left: 15px;
+    margin-top: 10px; 
 }
 
 .profile-pic{
-    width: 400px;
+    width: 600px;
 }
